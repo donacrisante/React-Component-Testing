@@ -7,7 +7,7 @@ test("renders a label and an input with the correct attributes", () => {
     const inputName = screen.getByLabelText("Name of game");
     
     expect(inputName).toHaveAttribute("name", "NameOfGame");
-    expect(inputName).toHaveAttribute()
+    expect(inputName).toHaveAttribute("placeholder", "e.g. Dodelido");
 
 });
 
